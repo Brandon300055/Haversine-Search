@@ -1,2 +1,4 @@
 # Haversine-Search
 Uses the Haversine Formula (See: https://en.wikipedia.org/wiki/Haversine_formula/ ) to search for people with in an area around a location and gives there distance away from that location. Haversine Search uses a Google Maps rest API to get the lat and lng of the location entered then uses the Haversine formula to compare the lat and lng from the API and the lat and lng of each of the people that are storded in a DB. see live example (Here: https://prmicascade.oraclelearningcenter.com/find ). The advantage to using the Haversine formula over the Google API to compare distances is that you only have to make one API call to get the lat and lng of the user location, where as with using the Google API you would have to make one call for each of the profiles.
+
+For Use in Laravel 
